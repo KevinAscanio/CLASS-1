@@ -1,3 +1,35 @@
-.one {
-  background-color: aqua;
+* {
+}
+
+a,
+h1,
+p {
+  color: whitesmoke;
+}
+
+body {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+
+.mainSquad {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  justify-items: center;
+  margin: 1rem;
+}
+
+.playersCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 200px;
+  height: 250px;
+  border-radius: 1rem;
 }
